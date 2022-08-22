@@ -1,5 +1,5 @@
 {% set name = "diffusers" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/diffusers-{{ version }}.tar.gz
-  sha256: a6af51733e627804ebbfd66ffda8b56925c71983a2882276715c574407da240a
+  sha256: b15eb021dff8123334b5fef1f5ef9c2d37118c88b4b97c171484189f85ec06da
 
 build:
   number: 0
