@@ -29,6 +29,7 @@ requirements:
     - regex !=2019.12.17
     - requests
     - pytorch >=1.4
+    - safetensors
 
 test:
   imports:
