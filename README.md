@@ -155,6 +155,7 @@ Feedstock Maintainers
 =====================
 
 * [@anton-l](https://github.com/anton-l/)
+* [@mukhery](https://github.com/mukhery/)
 * [@patrickvonplaten](https://github.com/patrickvonplaten/)
 * [@sugatoray](https://github.com/sugatoray/)
 
