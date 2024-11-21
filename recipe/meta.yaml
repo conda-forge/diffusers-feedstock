@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.6
   run:
     - python >=3.6
@@ -57,6 +58,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mukhery
     - sugatoray
     # maintainers from upstream repo
     - anton-l
