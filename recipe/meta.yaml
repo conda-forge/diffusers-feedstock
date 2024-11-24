@@ -1,5 +1,6 @@
 {% set name = "diffusers" %}
 {% set version = "0.30.3" %}
+{% set python_min = "3.6" %}
 
 
 package:
@@ -7,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/diffusers-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/diffusers-{{ version }}.tar.gz
   sha256: 67c5eb25d5b50bf0742624ef43fe0f6d1e1604f64aad3e8558469cbe89ecf72f
 
 build:
@@ -19,9 +20,9 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - filelock
     - huggingface_hub
     - importlib-metadata
@@ -40,6 +41,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/huggingface/diffusers
