@@ -1,6 +1,6 @@
 {% set name = "diffusers" %}
 {% set version = "0.30.3" %}
-{% set python_min = "3.6" %}
+{% set python_min = "3.9" %}
 
 
 package:
