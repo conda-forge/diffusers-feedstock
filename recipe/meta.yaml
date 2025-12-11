@@ -32,7 +32,7 @@ requirements:
     - requests
     - pytorch >=1.4
     - safetensors
-
+    - httpx < 1.0
 test:
   imports:
     - diffusers
