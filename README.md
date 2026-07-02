@@ -19,7 +19,6 @@ training of diffusion models.
 
 PyPI: [https://pypi.org/project/diffusers/](https://pypi.org/project/diffusers/)
 
-
 Current build status
 ====================
 
@@ -27,7 +26,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/diffusers-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/diffusers-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -157,4 +158,5 @@ Feedstock Maintainers
 * [@mukhery](https://github.com/mukhery/)
 * [@patrickvonplaten](https://github.com/patrickvonplaten/)
 * [@sugatoray](https://github.com/sugatoray/)
+* [@xhochy](https://github.com/xhochy/)
 
