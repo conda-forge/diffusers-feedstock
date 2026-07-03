@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: diffusers
-  version: "0.38.0"
+  version: "0.39.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/diffusers-${{ version }}.tar.gz
-  sha256: 1e094ec5c16f18c42fb89d37f07a94cf9aab3ebbe527ab059c609597b8857626
+  sha256: 14bb1d98c85a0e463d734c99aaa73b480a7bc9bad22af30fbf730ef8f09c1d67
 
 build:
   number: 0
