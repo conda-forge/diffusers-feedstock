@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: diffusers
-  version: "0.39.0"
+  version: 0.40.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/diffusers-${{ version }}.tar.gz
-  sha256: 14bb1d98c85a0e463d734c99aaa73b480a7bc9bad22af30fbf730ef8f09c1d67
+  sha256: 49f112ce52ff6d332ab68afec01f79a53e6489b42cb69104444c98b4a2f64af8
 
 build:
   number: 0
@@ -27,13 +27,12 @@ requirements:
     - importlib-metadata
     - filelock
     - httpx <1.0.0
-    - huggingface_hub >=0.34.0,<2.0
+    - huggingface_hub >=1.23.0,<2.0
     - numpy
     - regex !=2019.12.17
     - requests
     - safetensors >=0.8.0
     - pillow
-
 tests:
   - python:
       imports:
